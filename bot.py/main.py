@@ -12,7 +12,7 @@ def lastmessage(text,sender_name = "Ankit Yadav"):
 def googleai(c):
     # assistant_thread = threading.Thread()
     # assistant_thread.start()
-    genai.configure(api_key="AIzaSyASTjhJI80UJvowouC55vNED4uY7ksYNR8")
+    genai.configure(api_key="YOUR_API_KEY")
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(c)
     # response.max_output_tokens = 250
